@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body
+{
+	background-image: linear-gradient(45deg, #7175da, #9790F2);
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+
+	background: #2C3E50;
+	background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+	background: linear-gradient(to right, #4CA1AF, #2C3E50);
+	
+}
+
+#confCont{
+	position:absolute;
+    top:20%;
+}
+
+.conference {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 900px;
+	max-height: 100%;
+	height: 200px;
+}
+
+.conference h6 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.conference h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.conference-preview 
+{
+	background-color: #2A265F;
+	color: #fff;
+	padding: 4px;
+	/*max-height: 140px;*/
+	max-width: 250px;
+}
+
+img 
+{
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.conference-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.progress-container {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: right;
+	width: 150px;
+}
+
+.progress-text {
+	font-size: 12px;
+	opacity: 1.0;
+	letter-spacing: 1.5px;
+	color: black;
+	text-transform: uppercase;
+}
+
+#sort
+{
+	position: absolute;
+	bottom: 30px;
+	left: 500px;
+}
+
+.btn {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+
+.btn-5 {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	letter-spacing: 1px;
+}
+
+#searchBox
+{
+	position:absolute;
+    top:5%;
+	width:30%;
+	background: #30E8BF;
+	background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);
+	background: linear-gradient(to right, #FF8235, #30E8BF);
+}
+
+#search {
+	background-image: url('https://www.w3schools.com/css/searchicon.png'); 
+	background-position: 10px 12px;
+	background-repeat: no-repeat; 
+	width: 100%; 
+	font-size: 16px;
+	color: black;
+	padding: 12px 20px 12px 40px; 
+	border: 2px solid #bbb; 
+	margin-bottom: 12px
+
+	background: #30E8BF;
+	background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);
+	background: linear-gradient(to right, #FF8235, #30E8BF);
+}
+
+::placeholder 
+{
+  color: black;
+  opacity: 1;
+}
+
+#searchBy{
+	width: 100%; 
+	font-size: 16px; 
+	padding: 12px 20px 12px 40px; 
+	border: 2px solid #bbb; 
+	margin-bottom: 12px
+	background: #30E8BF;
+	background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);
+	background: linear-gradient(to right, #FF8235, #30E8BF);
+}
