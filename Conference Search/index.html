@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conferences</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+</head>
+<body>
+
+<div id="searchBox">
+	<select name="searchType" id="searchBy">
+		<option value="name" selected>Name</option>
+		<option value="place">Place</option>
+	</select>
+	<input type="text" id="search" onkeyup="SearchByName()" placeholder="Search ">
+			<button class="btn btn-1" id="sort">Sort (by date)</button>
+</div>
+
+<div class="conferences-container" id="confCont">
+
+</div>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
