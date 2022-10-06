@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -49,18 +49,41 @@ html {
   max-width: 95%;
   height: auto;
   margin: 1rem auto;
-  
+
+}
+
+h1 {
+  font-size: 5em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  background: url('./background.png');
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text 7.5s linear infinite;
+}
+
+@keyframes text {
+  from {
+    background-position: 0% 50%;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
 }
 
 #hr-line {
   margin-top: 1rem;
   width: 80%;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
-#below{
-    display: none;;
+#below {
+  display: none;
+  ;
 }
 
 #tribute-info {
@@ -104,12 +127,12 @@ html {
 }
 
 #footer {
-  text-align:center;
+  text-align: center;
   padding: 0 0 1rem 0;
 }
 
 #tribute-link {
-  color:white;
+  color: white;
 }
 
 #tribute-link:hover {
@@ -117,93 +140,95 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-image: url('https://i.pinimg.com/originals/4e/17/b6/4e17b6d7caefbcea123e37c6a6fa3624.jpg');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-        color: white;
-        width: 100%;
-        height: auto;
-    }
-
-    #title{
-        padding: .4rem;
-    }
-
-    .head {
-        width: 90vw;
-    }
-
-    #img-div{
-        display: block;
-        width: 90vw;
-    }
-
-    #image{
-          width: 85vw;
-    }
-
-    #img-caption{
-        padding-left: .5rem!important;
-    }
-
-    #tribute-info {
-        width: 90vw;
-        text-align: center;
-        border: 1px solid white;
-        border-radius: 10px;
-        margin: 2rem auto 1rem auto;
-    }
-
-    #row, #row-1 {
-        display: block;
-        margin: 1rem;
-    }
-
-    .col1 {
-        width: 100%;
-        text-align: left;
-        padding: 0 0 0 .2rem;
-        margin: auto 0;
-        text-align: center;
-    }
-
-    .col2 {
-        width: 100%;
-        text-align: left;
-        margin: auto 0;
-        text-align: center;
-    }
-
-    .col3 {
-        width: 100%;
-        text-align: left;
-        padding: 0 .2rem 0 0;
-        text-align: center;
-    }
-
-    #below{
-        width: 50%;
-        display: inline-block;
-    }
-
-    #hr-line{
-        width: 99%;
-    }
-
-    #col1, #col2 {
-        margin: .1rem 0;
-    } 
-
-    #quote {
-        padding: .2rem;
-    }
-
-    #footer {
-        text-align:center;
-        padding: 0 .5rem 1rem .5rem;
-      }
-
+  body {
+    background-image: url('https://i.pinimg.com/originals/4e/17/b6/4e17b6d7caefbcea123e37c6a6fa3624.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: auto;
   }
+
+  #title {
+    padding: .4rem;
+  }
+
+  .head {
+    width: 90vw;
+  }
+
+  #img-div {
+    display: block;
+    width: 90vw;
+  }
+
+  #image {
+    width: 85vw;
+  }
+
+  #img-caption {
+    padding-left: .5rem !important;
+  }
+
+  #tribute-info {
+    width: 90vw;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 2rem auto 1rem auto;
+  }
+
+  #row,
+  #row-1 {
+    display: block;
+    margin: 1rem;
+  }
+
+  .col1 {
+    width: 100%;
+    text-align: left;
+    padding: 0 0 0 .2rem;
+    margin: auto 0;
+    text-align: center;
+  }
+
+  .col2 {
+    width: 100%;
+    text-align: left;
+    margin: auto 0;
+    text-align: center;
+  }
+
+  .col3 {
+    width: 100%;
+    text-align: left;
+    padding: 0 .2rem 0 0;
+    text-align: center;
+  }
+
+  #below {
+    width: 50%;
+    display: inline-block;
+  }
+
+  #hr-line {
+    width: 99%;
+  }
+
+  #col1,
+  #col2 {
+    margin: .1rem 0;
+  }
+
+  #quote {
+    padding: .2rem;
+  }
+
+  #footer {
+    text-align: center;
+    padding: 0 .5rem 1rem .5rem;
+  }
+
+}
